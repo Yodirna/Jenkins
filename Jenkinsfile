@@ -39,7 +39,7 @@ pipeline {
                         }
                         echo "Successfully retrieved NPM_AUTH_TOKEN. Proceeding with npm publish."
                         sh 'echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > .npmrc'
-                        sh 'npm publish'
+                        sh 'npm publish --access public'
                         sh 'rm .npmrc'
                         echo "Successfully published to NPM."
                     }
