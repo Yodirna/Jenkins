@@ -1,5 +1,5 @@
 {
-  "name": "@yourusername/shuffle-array",
+  "name": "@bigdoy/shuffle-array",
   "version": "0.1.0",
   "description": "A small library that takes an array as input and returns a new array that is shuffled.",
   "main": "dist/index.js",
