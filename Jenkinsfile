@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        NPM_TOKEN_CREDENTIAL_ID = 'your-jenkins-credential-id-for-npm-token'
+        NPM_TOKEN_CREDENTIAL_ID = 'NPM'
     }
 
     stages {
