@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Use the Name you configured in Global Tool Configuration
-        nodejs 'YourNodeJSInstallationName' // e.g., 'NodeJS-18'
+        nodejs 'NodeJS' // e.g., 'NodeJS-18'
     }
 
     environment {
